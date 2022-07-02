@@ -1,0 +1,623 @@
+:root {
+  --morado: #2c1d3d;
+  --azul: rgb(53, 56, 95);
+  --gris: #212529;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #8249a3;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #8249a3;
+}
+.bi {
+  display: inline-block;
+  height: auto;
+  color: white;
+}
+
+/*! PERFIL */
+.container {
+  padding-top: 2rem;
+}
+#LogoPerfil {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#LogoPerfil2 {
+  display: none;
+}
+.LogoPerfil {
+  width: 200px;
+  height: auto;
+}
+.TituloPerfil {
+  text-align: justify;
+  font-weight: bold;
+  color: var(--morado);
+  font-size: 44px;
+}
+
+.ParrafoPerfil {
+  padding-top: 2rem;
+  text-align: justify;
+  font-size: 18px;
+}
+
+#DescargarBoton {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.DescargarBoton {
+  font-size: 30px;
+  justify-content: center;
+  background: var(--azul);
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.DescargarBoton:hover {
+  background-color: #2c1d3d;
+}
+/*! EXPERIENCIA */
+.custom-shape-divider-top-1656560504 {
+  position: inherit;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1656560504 svg {
+  position: relative;
+  display: block;
+  width: calc(162% + 1.3px);
+  height: 66px;
+}
+
+.custom-shape-divider-top-1656560504 .shape-fill {
+  fill: var(--gris);
+}
+.TituloExperiencia {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.Experiencias {
+  background-color: var(--gris);
+}
+#circulo img {
+  max-width: 40px;
+}
+
+#circulo2 img {
+  max-width: 40px;
+}
+
+#circulo {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+#circulo2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#centro {
+  max-width: 4px;
+  width: 4px;
+  padding: 0px;
+  background-color: #8249a3;
+}
+
+#centro2 {
+  max-width: 4px;
+  width: 4px;
+  padding: 0px;
+  background-color: #494fa3;
+}
+
+#izquierda {
+  text-align: right;
+  color: white;
+}
+
+#izquierda p {
+  text-align: justify;
+}
+
+#derecha {
+  text-align: justify;
+  color: white;
+}
+
+.custom-shape-divider-top-16565605044 .shape-fill {
+  fill: var(--gris);
+}
+
+/*! HABILIDADES */
+.custom-shape-divider-top-165656050 {
+  position: inherit;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-165656050 .shape-fill {
+  fill: #2c1d3d;
+}
+
+.TituloHabilidades {
+  text-align: center;
+  font-weight: bold;
+  color: #2c1d3d;
+  font-size: 44px;
+}
+
+#HabilidadesBotones {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#Python {
+  width: 300px;
+  font-size: 20px;
+  background: var(--azul);
+  padding: 10px 10px;
+  font-weight: bold;
+  color: white;
+  border-radius: 35px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 30px;
+  border-bottom: 4px solid;
+  border-color: #2c1d3d;
+}
+
+#HTML {
+  font-size: 20px;
+  background: var(--azul);
+  padding: 10px 10px;
+  font-weight: bold;
+  color: white;
+  border-radius: 35px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 30px;
+  border-bottom: 4px solid;
+  border-color: #2c1d3d;
+}
+
+#CSS {
+  font-size: 20px;
+  background: var(--azul);
+  padding: 10px 10px;
+  font-weight: bold;
+  color: white;
+  border-radius: 35px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 30px;
+  border-bottom: 4px solid;
+  border-color: #2c1d3d;
+}
+
+#JS {
+  font-size: 20px;
+  background: var(--azul);
+  padding: 10px 10px;
+  font-weight: bold;
+  color: white;
+  border-radius: 35px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 30px;
+  border-bottom: 4px solid;
+  border-color: #2c1d3d;
+}
+
+#Basic {
+  font-size: 20px;
+  background: var(--azul);
+  padding: 10px 10px;
+  font-weight: bold;
+  color: white;
+  border-radius: 35px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 30px;
+  border-bottom: 4px solid;
+  border-color: #2c1d3d;
+}
+#Python:hover {
+  background: white;
+  color: #212529;
+  transform: translateY(-10px);
+  border-bottom: 7px solid;
+  border-color: var(--azul);
+}
+
+#Basic:hover {
+  background: white;
+  color: #212529;
+  transform: translateY(-10px);
+  border-bottom: 7px solid;
+  border-color: var(--azul);
+}
+
+#HTML:hover {
+  background: white;
+  color: #212529;
+  transform: translateY(-10px);
+  border-bottom: 7px solid;
+  border-color: var(--azul);
+}
+
+#CSS:hover {
+  background: white;
+  color: #212529;
+  transform: translateY(-10px);
+  border-bottom: 7px solid;
+  border-color: var(--azul);
+}
+
+#JS:hover {
+  background: white;
+  color: #212529;
+  transform: translateY(-10px);
+  border-bottom: 7px solid;
+  border-color: var(--azul);
+}
+#HabilidadesBotones2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#Photoshop {
+  font-size: 20px;
+  background: var(--azul);
+  padding: 10px 10px;
+  font-weight: bold;
+  color: white;
+  border-radius: 35px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 30px;
+  border-bottom: 4px solid;
+  border-color: #2c1d3d;
+}
+#DaVinci {
+  font-size: 20px;
+  background: var(--azul);
+  padding: 10px 10px;
+  font-weight: bold;
+  color: white;
+  border-radius: 35px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 30px;
+  border-bottom: 4px solid;
+  border-color: #2c1d3d;
+}
+
+#MediBang {
+  font-size: 20px;
+  background: var(--azul);
+  padding: 10px 10px;
+  font-weight: bold;
+  color: white;
+  border-radius: 35px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 30px;
+  border-bottom: 4px solid;
+  border-color: #2c1d3d;
+}
+
+#Photoshop:hover {
+  background: white;
+  color: #212529;
+  transform: translateY(-10px);
+  border-bottom: 7px solid;
+  border-color: var(--morado);
+}
+#DaVinci:hover {
+  background: white;
+  color: #212529;
+  transform: translateY(-10px);
+  border-bottom: 7px solid;
+  border-color: var(--morado);
+}
+
+#MediBang:hover {
+  background: white;
+  color: #212529;
+  transform: translateY(-10px);
+  border-bottom: 7px solid;
+  border-color: var(--morado);
+}
+
+/*! CARDS  */
+.TituloCursos {
+  color: var(--morado);
+  text-align: center;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.Cursos {
+  background-color: white;
+  margin-top: 3rem;
+  /* background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnews-cdn.softpedia.com%2Fimages%2Fnews2%2Fwhat-s-new-in-mozilla-firefox-82-0-3-531492-2.png&f=1&nofb=1); */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  /* color: white; */
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  backdrop-filter: blur (1rem);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgb(0, 0, 0, 0.5);
+}
+
+.cb1 {
+  background-color: rgba(33, 37, 41);
+}
+
+.CursosImagen {
+  width: 100px;
+}
+
+.card-title {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: white;
+  font-size: 20px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+}
+
+.cb1:hover {
+  background-color: var(--azul);
+}
+
+/*! FORMULARIO */
+.FormularioNuevo {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  width: 700px;
+  background-color: #212529;
+  border-radius: 20px;
+}
+
+#Contacto {
+  margin-bottom: 30px;
+}
+
+.Direccion {
+  padding: 10px;
+}
+
+.Email {
+  padding: 10px;
+}
+
+.Agradecimiento {
+  padding: 10px;
+}
+
+.emote {
+  font-size: 30px;
+}
+#FormularioBox {
+  color: white;
+  padding: 20px 20px;
+}
+
+.CanvasImagen {
+  width: 300px;
+  display: flex;
+  align-content: center;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.mensaje-usuario {
+  color: var(--gris);
+  font-size: 22px;
+  text-align: justify;
+  width: 400px;
+  display: flex;
+  align-content: center;
+  margin: auto;
+}
+.offcanvas-bottom {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  width: 40%;
+  height: 85%;
+  margin-bottom: 4rem;
+}
+.offcanvas-title {
+  color: var(--gris);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.btn-primary {
+  background-color: var(--gris);
+  border-color: white;
+  width: 150px;
+  display: flex;
+  align-content: center;
+  margin: auto;
+}
+
+.btn-primary h5 {
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+.btn-primary:hover {
+  background-color: var(--azul);
+  border-color: var(--azul);
+}
+@media (max-width: 991px) {
+  /*! MENU HAMBURGUESA */
+  .nav-link {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  /*! PERFIL */
+  #LogoPerfil {
+    display: none;
+  }
+
+  .TituloPerfil {
+    text-align: center;
+  }
+
+  .ParrafoPerfil {
+    /* font-weight: bold; */
+    font-size: 23px;
+    font-weight: 400;
+  }
+  #Columna2 {
+    display: none;
+  }
+
+  #Columna4 {
+    display: none;
+  }
+
+  #LogoPerfil2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  /*! EXPERIENCIAS  */
+  #centro {
+    display: none;
+  }
+  #centro2 {
+    display: none;
+  }
+
+  #circulo {
+    display: none;
+  }
+  #circulo2 {
+    display: none;
+  }
+
+  #derechaBorrar {
+    display: none;
+  }
+
+  #izquierdaBorrar {
+    display: none;
+  }
+
+  .Experiencias p {
+    font-size: 20px;
+    font-weight: 550;
+  }
+
+  .TituloExperiencia {
+    color: white;
+    font-size: 44px;
+  }
+
+  #derecha h1,
+  h2 {
+    text-align: center;
+  }
+  #izquierda h1,
+  h2 {
+    text-align: center;
+  }
+
+  #derecha h2,
+  h1 {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  #izquierda h2,
+  h1 {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  /*! FORMULARIO  */
+  .mensaje-usuario {
+    font-size: 20px;
+    text-align: justify;
+    width: auto;
+    display: flex;
+    align-content: center;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .offcanvas-title {
+    color: var(--gris);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .offcanvas-bottom {
+    width: 60%;
+    height: 80%;
+    margin-bottom: 4rem;
+  }
+}
